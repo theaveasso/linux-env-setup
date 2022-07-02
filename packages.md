@@ -12,8 +12,10 @@ sudo apt install -y tcpdump
 ```shell
 sudo apt install -y smbclient
 ```
-### FTP (File transfer protocol)
-
+### NFS
+```shell
+sudo apt install -y nfs-common
+```
 ### Metaspoit
 ```shell
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
