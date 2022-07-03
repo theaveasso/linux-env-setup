@@ -22,6 +22,10 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
   chmod 755 msfinstall && \
   ./msfinstall
 ```
+### MySQL
+```shell
+sudo apt install default-mysql-client
+```
 ## 4 Customization
 ### neofecth
 ```shell 
