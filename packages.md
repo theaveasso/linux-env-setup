@@ -22,10 +22,17 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
   chmod 755 msfinstall && \
   ./msfinstall
 ```
+### Burp Suite Community
+install java
+```shell
+sudo apt install default-jre
+```
+download burp suite community `jar` file from [PortSwigger](https://portswigger.net/burp/releases/professional-community-2022-6-1?requestededition=community&requestedplatform=)
 ### MySQL
 ```shell
 sudo apt install default-mysql-client
 ```
+
 ## 4 Customization
 ### neofecth
 ```shell 
